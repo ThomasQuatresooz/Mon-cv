@@ -39,6 +39,8 @@ article {
 img {
   height: 150px;
   justify-self: flex-end;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 h2{
