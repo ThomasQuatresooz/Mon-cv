@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+  padding: 0.5rem 3rem;
+
+  font-family: "Roboto", sans-serif;
+
+  background-color: beige;
+}
+
+section {
+  flex: 1;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center space-between;
+  align-content: stretch;
+  text-align: justify;
+  border-radius: 5px;
+  box-shadow   : 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition   : all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+section:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+aside {
+  flex: 1;
+  float: left;
+  margin-left: 1rem;
+}
+article {
+  flex: 5;
+  margin-left: 150px;
+}
+img {
+  height: 150px;
+  justify-self: flex-end;
+}
+
+h2{
+    border-bottom: 1px solid lightgreen;
+    text-transform: uppercase;
+}
+
+aside p{
+    margin-bottom: 30px;
+}
+
+.info {
+  flex: 5;
+}
